@@ -18,6 +18,9 @@ header {
   color:#fff;
   font-size:50px;
 }
+aside {
+  margin:10px;
+}
 nav {
   display:inline-block;
   vertical-align:top;
@@ -26,7 +29,7 @@ nav {
 main {
   display:inline-block;
   vertical-align:top;
-  width:75%;
+  width:70%;
 }
 footer {
   margin-left:20px;
@@ -34,7 +37,7 @@ footer {
 ul {
   list-style-type:none;
 }
-#float-right {
+#float {
   float:right;
   display:block;
 }
@@ -43,7 +46,7 @@ ul {
   font-weight:bold;
   padding: 15px;
 }
-section > p {
+section > p, article > p {
   padding:20px;
 }
 a {
@@ -53,12 +56,14 @@ a:hover {
   color: gold;
   background: #E7F2D7;
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   body {
-    font-size:large;
+    font-size:15px;
     display:block;
   }
   header {
-    font-size:30px;
+    font-size:25px;
   }
+  header {
+    height:100px;
 }
