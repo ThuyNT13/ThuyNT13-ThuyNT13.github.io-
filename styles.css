@@ -86,6 +86,9 @@ div.lower {
   border-radius:5px 5px 20px 20px;
   margin-top:10px;
 }
+div.upper-lower {
+  border-radius: 20px;
+}
   section > p, article > p {
   padding:9px;
   font-size:18px;
