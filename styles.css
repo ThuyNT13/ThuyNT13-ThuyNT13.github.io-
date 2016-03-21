@@ -1,69 +1,129 @@
-*{
-  outline:1px solid red;
+
+html {
+  background-color: #262626;
 }
 body {
+  background:white;
   font-family:'Lato',sans-serif;
   max-width:800px;
-  min-width:300px;
+  min-width:375px;
   margin:auto;
 }
 header {
-  background-image: url("images/monkeyPlacard.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 3px;
-  height: 300px;
-  text-align: center;
+  font-family:'Lobster',cursive;
+  font-size:60px;
+  font-weight:bold;
+  text-align:center;
   color:#fff;
-  font-size:50px;
-}
-aside {
-  margin:10px;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  padding-top:25px;
+  background-image:url("images/monkeyPlacard.jpg");
+  background-position:50% 50%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:9px solid black;
+  border-radius:30px 30px 15px 15px;
+  height:200px;
 }
 nav {
-  display:inline-block;
+  margin:10px;
+  padding:10px;
+  text-align:center;
+  color:white;
+  min-width:375px;
+}
+
+aside {
+  display:inline;
   vertical-align:top;
-  width:15%;
+  width:10%;
+  margin:20px;
 }
 main {
   display:inline-block;
   vertical-align:top;
-  width:70%;
+  width:85%;
 }
 footer {
-  margin-left:20px;
+  background:#65696A;
+  padding:5px 25px;
+  border-radius: 20px 20px 5px 5px;
+  border:3px solid;
+  font-size:13px;
+  margin-top:10px;
 }
 ul {
   list-style-type:none;
 }
 #float {
-  float:right;
+  float:left;
   display:block;
 }
 .title {
   font-family:'Racing Sans One',cursive;
+  font-size:25px;
   font-weight:bold;
-  padding: 15px;
+  padding-left:25px;
 }
-section > p, article > p {
-  padding:20px;
+.btn {
+  border-radius:25px 10px 10px;
+  background:#4CAF50;
+  text-align: center;
+  box-shadow:5px 5px 10px 5px #888;
+  margin:20px;
+}
+div {
+  border:3px solid;
+  margin:10px;
+  background:#65696A;
+  padding:10px;
+
+}
+div.upper {
+  border-radius:20px 20px 5px 5px;
+}
+div.lower {
+  border-radius:5px 5px 20px 20px;
+  margin-top:10px;
+}
+  section > p, article > p {
+  padding:9px;
+  font-size:18px;
 }
 a {
   text-decoration:none;
+  color:white;
+  padding:10px;
 }
-a:hover {
-  color: gold;
-  background: #E7F2D7;
+a.btn:hover {
+  background:#079413;
 }
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width:460px) {
   body {
     font-size:15px;
     display:block;
   }
-  header {
-    font-size:25px;
+  aside {
+    display:inline;
   }
   header {
+    font-size:25px;
     height:100px;
+  }
+  div {
+    margin:auto;
+  }
+  .title {
+    font-size:18px;
+  }
+  section > p, article > p {
+  padding:5px;
+  font-size:16px;
+}
+}
+@media screen and (max-width:364px) {
+  nav {
+    padding:5px;
+  }
 }
