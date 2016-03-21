@@ -2,26 +2,24 @@
 <html>
 <head>
   <title>Positioning and Section</title>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:900,400' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <header class="title">Main Header</header>
-
+  <header>Positioning</header>
   <nav class="title">
-      <p><a href="index.html">Home</a></p>
-      <p><a href="#">About</a></p>
-      <p><a href="#">Contact</a></p>
+      <a class="btn" href="index.html">Home</a>
+      <a class="btn" href="#">About</a>
+      <a class="btn" href="#">Contact</a>
   </nav>
-
   <aside id="float">
-    <p><a href="https://github.com/ThuyNT13"><img src="images/github.png" alt="GitHub"/></a></p>
-    <p><a href="#"><img src="images/linkedin.png" alt="Linked In"/></a></p>
+    <a href="https://github.com/ThuyNT13"><img src="images/github.png" alt="GitHub"/></a>
+    <a href="#"><img src="images/linkedin.png" alt="Linked In"/></a>
   </aside>
-
   <main>
-    <div>
+    <div class="upper">
       <article>
         <h4 class="title">Versions</h4>
         <p>This will be a constantly evolving page to test out website ideas.</p>
@@ -29,27 +27,35 @@
 					<b>Versions</b>
 					<li><a href="table-project.html" target="_blank">original project</a></li>
           <li><a href="table-layout.html">table website</a></li>
-					<li>Ingrid CSS</li>
+					<li><a href="#">Ingrid CSS</a></li>
 				</ul>
       </article>
     </div>
-    <div>
+    <div class="lower">
       <section>
-        <h4 class="title">Concept</h4>
-        <p>Bacon ipsum dolor amet kielbasa jerky doner turducken alcatra bresaola ribeye ham shoulder pork chop landjaeger hamburger meatloaf short loin. Pig turkey cow strip steak, sirloin tail turducken brisket leberkas kielbasa beef pork andouille fatback. Prosciutto pancetta ball tip spare ribs, brisket ham hamburger fatback strip steak chuck alcatra boudin short ribs jerky pork belly. Ham t-bone chicken, alcatra ham hock doner capicola. Frankfurter andouille cupim salami tenderloin. Landjaeger cupim beef ribs rump strip steak bacon t-bone pork swine capicola andouille ground round fatback.</p>
+        <h4 class="title">Evolution</h4>
+        <p>Some changes from the original table-layout idea as it's not so pretty to look at on mobile devices. It is a bit much to squeeze in that information onto a device that only spans your hand.</p>
       </section>
       <section>
         <h4 class="title">Progress</h4>
-        <p>Bacon ipsum dolor amet kielbasa jerky doner turducken alcatra bresaola ribeye ham shoulder pork chop landjaeger hamburger meatloaf short loin. Pig turkey cow strip steak, sirloin tail turducken brisket leberkas kielbasa beef pork andouille fatback. Prosciutto pancetta ball tip spare ribs, brisket ham hamburger fatback strip steak chuck alcatra boudin short ribs jerky pork belly. Ham t-bone chicken, alcatra ham hock doner capicola. Frankfurter andouille cupim salami tenderloin. Landjaeger cupim beef ribs rump strip steak bacon t-bone pork swine capicola andouille ground round fatback.</p>
+        <p>Able to figure out some button styles for the <em>nav</em>. Utilizing border-radius, background, and other little changes, made it stand out. Still deciding on whether or not I like the box-shadow effect. Also, with the a:hover selector, gave it a cool <em>pop</em> when the mouse is over it.</p>
+      </section>
+      <section>
+        <h4 class="title">More...</h4>
+        <p>The main learning curve is trying to get my objects to align just where I want it to. Getting the social media links to go from block to inline is not easy. I would like the column to turn into a row but it's not happening. Centering is also a big hassle as margin:auto doesn't always work.</p>
+        <p>Need to fool around with more <em>responsive design</em> techniques. Finding optimal font-size for <em>readibility</em>  on mobiles as well as a large computer monitor is one aspect I need to explore.</p>
+        <p>Would also like to add a:hover to the social media icons so that when you hover over the icon, it will jump out. Will link to a larger icon to make it <em>pop</em>. Probably add some effect for text links. Not sure yet.</p>
+        <p>Need to clean up padding and margins so that there's not so much empty space. That's most likely another positioning issue so, oh well.</p>
       </section>
     </div>
+    <footer class="upper">
+      <p>logos from <a href="https://github.com/paulrobertlloyd/socialmediaicons">Paul Robert Lloyd </a>under the Creative Commons License <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="images/creativecommons.png" alt="Creative Commons License"/></a></p>
+      <p>photo credit: <a href="http://www.flickr.com/photos/53064522@N00/25210286275">Atsuta Jingu Shrine</a> via <a href="http://photopin.com">photopin</a> under the Creative Commons License <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/"><img src="images/creativecommons.png" alt="Creative Commons License"/></a></p>
+    </footer>
   </main>
-  <footer>
-    <p>logos from <a href="https://github.com/paulrobertlloyd/socialmediaicons">Paul Robert Lloyd </a>under the Creative Commons License <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="images/creativecommons.png" alt="Creative Commons License"/></a></p>
-    <p>photo credit: <a href="http://www.flickr.com/photos/53064522@N00/25210286275">Atsuta Jingu Shrine</a> via <a href="http://photopin.com">photopin</a> under the Creative Commons License <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/"><img src="images/creativecommons.png" alt="Creative Commons License"/></a></p>
-  </footer>
 </body>
 </html>
-/*
+<!--
 make logos bigger for media query
-*/
+address nav positioning issues
+-->
