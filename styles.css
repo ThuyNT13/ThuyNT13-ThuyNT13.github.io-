@@ -57,14 +57,15 @@ ul {
   font-weight:bold;
   padding-left:25px;
 }
-.btn {
+nav > .btn {
   border-radius:25px 10px 10px;
   background:#4CAF50;
-  text-align: center;
+  text-align:center;
   box-shadow:5px 5px 10px 5px #919191;
   margin:20px;
   padding:5px 8px;
 }
+
 div {
   border:3px solid;
   margin:10px;
@@ -86,12 +87,11 @@ div.lower {
 a {
   text-decoration:none;
   color:white;
-
 }
 a.btn:hover {
   background:#079413;
   box-shadow:5px 5px 10px 5px #919795;
-  padding:6px 9px;
+  padding:7px 10px;
 }
 
 @media screen and (max-width:460px) {
