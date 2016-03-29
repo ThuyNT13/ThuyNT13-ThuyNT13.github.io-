@@ -5,61 +5,59 @@
   <link href='https://fonts.googleapis.com/css?family=Spicy+Rice' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:900,400' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
-  <header>Positioning</header>
-  <nav class="title">
-      <a class="btn" href="index.html">Home</a>
-      <a class="btn" href="about.html">About</a>
-      <a class="btn" href="contact.html ">Contact</a>
-  </nav>
-  <aside>
-    <a class="inline" href="https://github.com/ThuyNT13"><img src="images/github.png" alt="GitHub"/></a>
-    <a href="#"><img src="images/linkedin.png" alt="Linked In"/></a>
-  </aside>
-  <main>
-    <div class="upper">
-      <article>
-        <h4 class="title">Versions</h4>
-        <p>This will be a constantly evolving page to test out website ideas.</p>
-        <ul>
-					<b>Versions</b>
-					<li class="btn"><a href="table-project.html" target="_blank">original project</a></li>
-          <li class="btn"><a href="table-layout.html">table website</a></li>
-					<li class="btn"><a href="#">Ingrid CSS</a></li>
-				</ul>
-      </article>
-    </div>
-    <div class="lower">
-      <section>
-        <h4 class="title">Evolution</h4>
-        <p>Some changes from the original table-layout idea as it's not so pretty to look at on mobile devices. It is a bit much to squeeze in that information onto a device that only spans your hand.</p>
-      </section>
-      <section>
-        <h4 class="title">Progress</h4>
-        <p>Able to figure out some button styles for links. Utilizing border-radius, background, and other little changes, made it stand out. Also, with the <em>a:hover</em> selector, gave buttons a <em>pop</em> when the cursor is over it. Still deciding on whether or not I like the box-shadow effect.</p>
-        <p>Learned about child selectors, kinda. Know that I could probably utilize them better, particularly with making the different sections within Main to act differently. Also avoid having too many <em>classes</em> and just utilize the specificty of child selectors within their parent element to indicate which element I want modified.</p>
-      </section>
-      <section>
-        <h4 class="title">More...</h4>
-        <p>The main issue is trying to get my objects to align just where I want it to. Getting the column formation of the social media links to turn into a row...not happening. Centering is also a big hassle as margin:auto doesn't always work. Resisting <em>float</em> as the <em>display</em> property has so much potential for futzing with. Plus with <em>display</em>, I can play with <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a>!</p>
-        <p>Getting rid of the ugly default link styles cause the links to disappear into the text. Present solution feels clutzy. Possibly overkill with button styles.</p>
-        <p>Need to explore more <em>responsive design</em> techniques. Finding optimal font-size for <em>readibility</em> on mobiles as well as a large computer monitor is one of a few aspects I need to explore.</p>
-        <p>Haven't really explored what font styles, color or other design issues as I'm still troubleshooting layout. Probably will move the <b>Version</b> section to the side and social media icons inline with <em>nav</em> buttons.</p>
-      </section>
-    </div>
-    <div class="upper">
-      <footer>
-        <p>logos from <a href="https://github.com/paulrobertlloyd/socialmediaicons">Paul Robert Lloyd </a>under the Creative Commons License <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="images/creativecommons.png" alt="Creative Commons License"/></a></p>
-        <p>photo credit: <a href="http://www.flickr.com/photos/53064522@N00/25210286275">Atsuta Jingu Shrine</a> via <a href="http://photopin.com">photopin</a> under the Creative Commons License <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/"><img src="images/creativecommons.png" alt="Creative Commons License"/></a></p>
-      </footer>
-    </div>
-  </main>
+<header>Positioning</header>
+<nav class="title">
+  <a class="btn" href="index.html">Home</a>
+  <a class="btn" href="about.html">About</a>
+  <a class="btn" href="contact.html">Contact</a>
+</nav>
+<aside>
+  <a href="https://github.com/ThuyNT13"><img src="images/github.png" alt="GitHub"/></a>
+  <a href="#"><img src="images/linkedin.png" alt="Linked In"/></a>
+</aside>
+<main>
+<div class="upper">
+  <article>
+    <h4 class="title">Versions</h4>
+    <p>This will be a constantly evolving page to test out website ideas.</p>
+    <ul>
+			<li class="btn"><a href="table-project.html" target="_blank">original project</a></li>
+      <li class="btn"><a href="table-layout.html">table website</a></li>
+		</ul>
+  </article>
+</div>
+<div class="lower">
+  <section>
+    <h4 class="title">Evolution</h4>
+    <p>Some changes from the original table-layout idea as it's not so pretty to look at on mobile devices. It is a bit much to squeeze in that information onto a device that only spans your hand.</p>
+  </section>
+  <section>
+    <h4 class="title">Progress</h4>
+    <p>Able to figure out some button styles for links. Utilizing border-radius, background, and other little changes, made it stand out. Also, with the <em>a:hover</em> selector, gave buttons a <em>pop</em> when the cursor is over it. Still deciding on whether or not I like the box-shadow effect.</p>
+    <p>Learned about <a href="http://www.w3schools.com/cssref/css_selectors.asp">CSS selectors</a>, kinda. Know that I could probably utilize them better, to target specific elements. Good to avoid having too many <em>classes</em> and just utilize the specificity of child selectors within their parent element to indicate which element I want modified. But some things are just head-scratchers, like  the elusive difference between <em>div p </em> vs <em>div > p</em>.</p>
+  </section>
+  <section>
+    <h4 class="title">More...</h4>
+    <p>The main issue is trying to get my objects to align just where I want it to. Getting the column formation of the social media links to turn into a row...not happening. Centering is also a big hassle as margin:auto doesn't always work. Resisting <em>float</em> as the <em>display</em> property has so much potential for futzing with. Plus with <em>display</em>, I can play with <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a>!</p>
+    <p>Getting rid of the ugly default link styles 'cause the links to disappear into the text. Present solution feels clutzy. Possibly overkill with button styles.</p>
+    <p>Need to explore more <em>responsive design</em> techniques. Finding optimal font-size for <em>readibility</em> on mobiles as well as a large computer monitor is one of a few aspects I need to explore.</p>
+    <p>Haven't really explored font styles, color or other design issues as I'm still troubleshooting layout. Probably will move the <b>Version</b> section to the side and social media icons inline with <em>nav</em> buttons.</p>
+  </section>
+</div>
+<div class="upper">
+<footer>
+  <p>logos from <a href="https://github.com/paulrobertlloyd/socialmediaicons">Paul Robert Lloyd </a>under the Creative Commons License <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="images/creativecommons.png" alt="Creative Commons License"/></a></p>
+  <p>photo credit: <a href="http://www.flickr.com/photos/53064522@N00/25210286275">Atsuta Jingu Shrine</a> via <a href="http://photopin.com">photopin</a> under the Creative Commons License <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.0/"><img src="images/creativecommons.png" alt="Creative Commons License"/></a></p>
+</footer>
+</div>
+</main>
 </body>
 </html>
 <!--
 positioning issues:
-  - center side-aligned elements
+  - center display:inline-block elements
   - convert social media icons to inline from block
 -->
