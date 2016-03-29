@@ -22,7 +22,7 @@ header {
   background-size:cover;
   background-repeat:no-repeat;
   border:9px solid black;
-  border-radius:30px 30px 15px 15px;
+  border-radius:0px 0px 15px 15px;
   height:200px;
 }
 nav {
@@ -34,10 +34,10 @@ nav {
 }
 
 aside {
-  display:inline;
+  display:inline-block;
   vertical-align:top;
-  width:10%;
-  margin:20px;
+  width:5%;
+  padding:20px;
 }
 main {
   display:inline-block;
@@ -51,10 +51,6 @@ footer {
 ul {
   list-style-type:none;
 }
-#float {
-  float:left;
-  display:block;
-}
 .title {
   font-family:'Racing Sans One',cursive;
   font-size:25px;
@@ -67,6 +63,7 @@ ul {
   text-align: center;
   box-shadow:5px 5px 10px 5px #919191;
   margin:20px;
+  padding:5px 8px;
 }
 div {
   border:3px solid;
@@ -82,9 +79,6 @@ div.lower {
   border-radius:5px 5px 20px 20px;
   margin-top:10px;
 }
-div.upper-lower {
-  border-radius: 20px;
-}
   section > p, article > p {
   padding:9px;
   font-size:18px;
@@ -92,11 +86,12 @@ div.upper-lower {
 a {
   text-decoration:none;
   color:white;
-  padding:10px;
+
 }
 a.btn:hover {
   background:#079413;
   box-shadow:5px 5px 10px 5px #919795;
+  padding:6px 9px;
 }
 
 @media screen and (max-width:460px) {
@@ -104,7 +99,7 @@ a.btn:hover {
     font-size:15px;
     display:block;
   }
-  aside {
+  aside > p {
     display:inline;
   }
   header {
