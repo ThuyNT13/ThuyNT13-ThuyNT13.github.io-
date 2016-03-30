@@ -1,5 +1,5 @@
 html {
-  background-color: #262626;
+  background-color:#262626;
 }
 body {
   background:white;
@@ -65,9 +65,9 @@ nav > .btn {
   margin:20px;
   padding:5px 8px;
 }
-/* to be futzed with */
-ul > .btn {
-  padding:5px;
+li > .btn {
+  border-radius:5px;
+  padding:10px;
   width:120px;
 }
 div {
@@ -90,12 +90,15 @@ div.lower {
 a {
   text-decoration:none;
   color:white;
-
 }
-a.btn:hover {
+nav a.btn:hover {
   background:#079413;
-  box-shadow:5px 5px 10px 5px #919795;
-  padding:7px 10px;
+}
+/* to be futzed with */
+li a.btn:hover {
+  border:1px solid #7E9180;
+  background:white;
+  color:#7E9180;
 }
 
 @media screen and (max-width:460px) {
