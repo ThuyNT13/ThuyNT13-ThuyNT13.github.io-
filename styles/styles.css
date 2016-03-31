@@ -61,15 +61,16 @@ nav > .btn {
   border-radius:25px 10px 10px;
   background:#4CAF50;
   text-align:center;
-  box-shadow:5px 5px 10px 5px #919191;
+  box-shadow:2px 2px 5px 2px #919191;
   margin:20px;
   padding:5px 8px;
 }
 article .btn {
   border-radius:5px;
+  border: 1px solid white;
   display: block;
   padding:5px;
-  margin:10px;
+  margin:10px 30px;
   width:120px;
 }
 div {
