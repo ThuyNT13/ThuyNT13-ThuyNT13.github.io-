@@ -46,7 +46,7 @@ body {
 	bottom: 0%;
 	position: absolute;
 	z-index: -1;
-	background: url(../images/snow-monkey.jpg) no-repeat top center fixed;
+	background: url(../images/snow-monkey.jpg) no-repeat top right fixed;
 	opacity: 0.8;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -152,7 +152,7 @@ body {
 		margin-top: -10px;
 	}
 	.content p{
-		font-size: 23px;
+		font-size: 15px;
 		font-weight: 700;
 	}
 }
